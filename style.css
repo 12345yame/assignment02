@@ -222,7 +222,7 @@
   font-weight: 700;
   line-height: 60px;
 }
-.paly-para {
+.play-para {
   color: #534c64;
   font-size: 18px;
   font-style: normal;
@@ -233,9 +233,6 @@
   position: relative;
 }
 
-.play-image {
-  width: 600px;
-}
 .top-play-image {
   width: 300px;
   height: 320px;
