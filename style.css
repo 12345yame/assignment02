@@ -44,6 +44,7 @@
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
   height: 56px;
+  cursor: pointer;
 }
 .youtube {
   height: 50px;
@@ -275,7 +276,7 @@
 }
 .footer {
   background-color: #0b0223;
-  padding: 40px 0 40px 0;
+  padding: 80px 0 80px 0;
 }
 .footer-title {
   display: flex;
@@ -294,14 +295,14 @@
   margin-left: auto;
   margin-right: auto;
   color: white;
-  margin-bottom: 26px;
+  margin-bottom: 50px;
 }
 
 .social-item {
   display: flex;
   justify-content: center;
   gap: 16px;
-  margin: 20px 0;
+  margin-bottom: 40px;
 }
 
 .facebook {
@@ -309,6 +310,7 @@
   height: 50px;
   border-radius: 100%;
   border: none;
+  cursor: pointer;
 }
 .fb-img {
   width: 50px;
@@ -328,26 +330,75 @@
 }
 
 @media screen and (max-width: 576px) {
-  /* .navbar {
-    width: 576px;
-  } */
-  /* .nav {
-    display: block;
+  .navbar {
+    flex-direction: column;
+    width: auto;
   }
-  .nav-img {
-    width: full;
-  } */
-  .nav-img {
-    width: full;
+  .nav {
+    flex-direction: column;
+    width: auto;
+  }
+  .nav-about {
+    flex-direction: column;
+    width: auto;
   }
   .banner {
     flex-direction: column;
-    width: full;
+    padding-left: 12px;
+  }
+  .banner-title {
+    width: auto;
+    margin-top: 220px;
+  }
+  .goat {
+    font-size: 70px;
+  }
+  .para {
+    margin-left: 0;
+  }
+  .banner-btn {
+    margin-left: auto;
+  }
+  .banner-img {
+    height: auto;
+    width: 100%;
+  }
+  .online-games {
+    margin-top: 350px;
   }
   .game-images {
+    margin-left: 12px;
+
     flex-direction: column;
+  }
+  .game-images p {
+    width: 300px;
+    font-size: 16px;
   }
   .play-games {
     flex-direction: column;
+    width: auto;
+  }
+  .play-image {
+    width: 100%;
+    margin-left: 12px;
+  }
+  .top-play-image {
+    width: 220px;
+    height: 200px;
+  }
+  .games {
+    flex-direction: column;
+    margin-left: 12px;
+  }
+  .footer {
+    width: 100%;
+    margin-left: 12px;
+    padding: 8px;
+  }
+  .our-details {
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 6px;
   }
 }
